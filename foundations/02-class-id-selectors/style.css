@@ -1,5 +1,5 @@
 /* styles.css*/
-.p-odd{
+.odd{
     background-color:lightpink; 
     font-family: Verdana, "DejaVu Sans", sans-serif;
 
@@ -11,11 +11,11 @@
 }
 
 #Number-3{
-    font-size: 24px;
+    font-weight: 24px;
 }
 
 #Number-4{
     background-color: lightgreen;
     font-size: 24px;
-    font-size: bold;
+    font-weight: bold;
 }
