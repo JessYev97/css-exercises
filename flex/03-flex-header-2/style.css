@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  padding: 0;
 }
 
 .header {
@@ -23,7 +24,7 @@ body {
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  padding: 10px 10%;
+  padding: 8px;
   width: 100%;
 }
 
@@ -80,4 +81,7 @@ a {
 
 ul {
   list-style-type: none;
+  gap: 16px; 
+  margin: 0;
+  padding: 0;
 }
