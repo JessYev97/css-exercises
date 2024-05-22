@@ -35,7 +35,9 @@ img {
 }
 .text {
   display: flex;
-
+}
+.plant-container {
+  display: flex;
 }
 /* do not edit this footer */
 .footer {
