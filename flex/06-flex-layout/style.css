@@ -11,10 +11,12 @@ body {
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 .footer{
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 img {
   width: 600px;
@@ -36,7 +38,9 @@ input {
 a{
   text-decoration: none;
   color: #555;
-  marker: none;
+}
+ul{
+  list-style-type: none; 
 }
 .content {
   width: 80%;
