@@ -17,9 +17,11 @@ body {
 }
 
 .header {
+  display: flex;
   font-size: large;
   font-weight: bold;
-  align-self: center; 
+  align-items: center; 
+  justify-content: space-between;
 }
 
 .modal {
