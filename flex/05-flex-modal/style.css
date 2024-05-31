@@ -29,6 +29,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+  gap: 10px;
 }
 
 .icon {
@@ -90,8 +92,9 @@ button.cancel {
 .top-line{
   display: flex;
 flex-direction: row; 
-justify-content: center;
-align-items: flex-start;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px; 
 
 }
 .container{
@@ -107,4 +110,8 @@ align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+.text{
+  display: flex;
+  margin-bottom: 10px;
 }
