@@ -23,8 +23,7 @@ body {
 }
 
 .modal {
-  display: flex;
-  flex-direction: column;
+ display: flex; 
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -82,35 +81,17 @@ button.cancel {
   color: royalblue;
   
 }
-.buttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-}
 
-.top-line{
-  display: flex;
-flex-direction: row; 
-justify-content: space-between;
-align-items: center;
-margin-bottom: 10px; 
 
-}
+
 .container{
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 2%;
 }
 
-.left{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 .text{
   display: flex;
   margin-bottom: 10px;
